@@ -1,0 +1,57 @@
+/* TODO: design your profile with CSS */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #DBD4D3;
+  margin: 0;
+}
+
+h1{
+  color: #534D56;
+  font-size: 3em;
+  font-family:'Open Sans', sans-serif;
+}
+
+
+h2{
+  color: red;
+}
+
+.card{
+  background: white;                         /* White background */
+  padding: 30px;
+  margin: 50px 100px;                          /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+}
+
+#footer{
+  background-color: gray;
+  height: 70px;
+}
+
+.list-inline{
+  list-style: none;
+  margin: 0;
+
+}
+
+.list-inline li{
+  display: inline-block;
+  padding-top: 20px;
+}
+
+.list-inline > li > a {
+  color: white;
+  font-size: 40px;
+  margin: 20px;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+
+
